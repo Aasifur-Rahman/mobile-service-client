@@ -1,0 +1,21 @@
+.nav-new {
+    background-color: rgb(27, 27, 27);
+
+}
+
+.nav-new {
+    color: white;
+}
+
+.search-btn {
+    color: black;
+}
+
+.search-inp {
+    width: 350px;
+}
+
+.text-change {
+    display: flex;
+    flex-direction: column;
+}
