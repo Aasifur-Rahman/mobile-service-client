@@ -8,7 +8,7 @@ const Header = () => {
         <div>
             <Navbar className='nav-new' expand="lg">
                 <Container>
-                    <Navbar.Brand className='text-white' href="#home">Mobile Service</Navbar.Brand>
+                    <Navbar.Brand className='text-white' href="#home">Mobile <span className='brand-style'>Service</span></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className=" d-flex align-items-center mx-auto fs-6 ">
@@ -22,7 +22,7 @@ const Header = () => {
                             <div className="form-outline ">
                                 <input placeholder='search' id="search-focus form1" type="search" className="form-control search-inp " />
                             </div>
-                            <button type="button" className="btn btn-primary mx-2 ">
+                            <button type="button" className=" search-btn mx-2 ">
                                 <FontAwesomeIcon icon="fa-solid fa-magnifying-glass" />
                                 Search
                             </button>
