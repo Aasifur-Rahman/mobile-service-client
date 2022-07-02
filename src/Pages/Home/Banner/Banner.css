@@ -29,6 +29,22 @@
     margin-top: 300px;
 }
 
+.book-btn {
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    background-color: rgb(197, 50, 211);
+    border-radius: 10px;
+}
+
+.book-btn:hover {
+    background-color: rgb(183, 117, 245);
+    transition: 1s;
+}
+
 
 
 /* --------------All media query for responsive text and image--------- */
@@ -54,6 +70,15 @@
         color: rgb(235, 130, 245);
         font-size: 40px;
         padding-bottom: 50px;
+    }
+
+    .small-cap {
+        margin-top: 15px;
+        font-size: 25px;
+    }
+
+    .book-btn {
+        margin-top: 10px;
     }
 }
 
@@ -118,4 +143,20 @@
         margin-top: 0;
 
     }
+
+    .main-text {
+        color: rgb(235, 130, 245);
+        font-size: 30px;
+        padding-bottom: 50px;
+    }
+
+    .small-cap {
+        margin-top: 15px;
+        font-size: 20px;
+    }
+
+    .book-btn {
+        margin-top: 10px;
+    }
+
 }

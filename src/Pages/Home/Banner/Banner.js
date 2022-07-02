@@ -17,24 +17,37 @@ const Banner = () => {
                     <div className="carousel-item active">
                         <div className='blur-img'><img src={image} className="d-block w-100 " alt="..." /></div>
                         <div className="carousel-caption ">
-                            <h1 className='text-size'><span className='main-text'>We deliver you the best service</span> <br /> to replace your damaged device.</h1>
+                            <h1 className='text-size'><span className='main-text'>We deliver you the best service</span> <br /> </h1>
+                            <p className='small-cap'>to replace your damaged device.</p>
 
+                            <div>
+                                <button className='book-btn'>Book now</button>
+                            </div>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <div className='blur-img'><img src={image2} className="d-block w-100" alt="..." /></div>
                         <div className="carousel-caption ">
-                            <h1 className='style-color text-size'><span className='main-text'>Broken display or display issue?</span> <br /> Don't worry we've got you covered.</h1>
+                            <h1 className='style-color text-size'><span className='main-text'>Broken display or display issue?</span> <br /></h1>
+                            <p className='small-cap'> Don't worry we've got you covered.</p>
 
+                            <div className='mt-3'>
+                                <button className='book-btn'>Book now</button>
+                            </div>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <div className='blur-img'><img src={image3} className="d-block w-100" alt="..." /></div>
                         <div className="carousel-caption ">
-                            <h1 className='text-size'><span className='main-text'>We satify our customer how we work on your device.</span><br /> Your device will remain spotless and will feel like new device.</h1>
+                            <h1 className='text-size'><span className='main-text'>We satify our customer how we work on your device.</span><br /></h1>
+                            <p className='small-cap'> Your device will remain spotless and will feel like new device.</p>
 
+                            <div>
+                                <button className='book-btn'>Book now</button>
+                            </div>
                         </div>
                     </div>
+
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
