@@ -1,0 +1,35 @@
+.custom-imgII {
+    width: 195px;
+}
+
+.custom-img {
+    width: 200px;
+}
+
+@media only screen and (max-width: 688px) {
+    h6 {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .custom-img {
+        width: 150px;
+
+    }
+
+    h6 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1312px) {
+    .custom-img {
+        width: 180px;
+    }
+
+    h6 {
+        display: none;
+    }
+}
