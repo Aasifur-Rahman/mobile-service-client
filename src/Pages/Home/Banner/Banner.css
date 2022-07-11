@@ -45,6 +45,10 @@
     transition: 1s;
 }
 
+.main-text {
+    color: rgb(235, 130, 245);
+}
+
 
 
 /* --------------All media query for responsive text and image--------- */

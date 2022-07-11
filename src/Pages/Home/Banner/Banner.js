@@ -17,8 +17,8 @@ const Banner = () => {
                     <div className="carousel-item active">
                         <div className='blur-img'><img src={image} className="d-block w-100 " alt="..." /></div>
                         <div className="carousel-caption ">
-                            <h1 className='text-size'><span className='main-text'>We deliver you the best service</span> <br /> </h1>
-                            <p className='small-cap'>to replace your damaged device.</p>
+                            <h1 className='text-size'><span className='main-text'>Finding Solution</span> <br /> </h1>
+                            <p className='small-cap'>for your problems</p>
 
                             <div>
                                 <button className='book-btn'>Book now</button>
