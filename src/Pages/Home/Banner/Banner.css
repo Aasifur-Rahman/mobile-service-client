@@ -24,5 +24,5 @@
 
 .services-btn:hover {
     background-image: linear-gradient(to bottom, #e18dc1 0%, #66639c 100%);
-    transition: fade-in 3s;
+    transition: .3s;
 }

@@ -6,6 +6,54 @@
     width: 200px;
 }
 
+.custom-color {
+    color: #66639c;
+}
+
+
+.bottom-efct {
+    color: #66639c;
+    display: inline-block;
+    margin: 0;
+    text-transform: uppercase;
+
+}
+
+.bottom-efct:after {
+    display: block;
+    text-align: center;
+    content: '';
+    border-bottom: solid 3px #8280b8;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+
+.bottom-efct:hover:after {
+    transform: scaleX(1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 688px) {
     h6 {
         display: none;
