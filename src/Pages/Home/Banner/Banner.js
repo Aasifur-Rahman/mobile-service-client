@@ -1,63 +1,75 @@
 import React from 'react';
 import './Banner.css';
-import image from './bannerImg/kilian-seiler-PZLgTUAhxMM-unsplash.jpg';
-import image2 from './bannerImg/pr-media-iuU2aZdzp_M-unsplash.jpg';
-import image3 from './bannerImg/thisisengineering-raeng-IpTPp_aPbYE-unsplash.jpg';
+import image from './bannerImg/cover image one.png'
+import image2 from './bannerImg/cover image two.png'
+import image3 from './bannerImg/cover image three.png'
 
 const Banner = () => {
     return (
         <div>
-            <div id="carouselExampleCaptions" data-interval="4000" className="carousel slide" data-bs-ride="carousel">
-                <div className="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <section className="container mt-5">
+                <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+                    <div className="carousel-inner">
+                        <div className="carousel-item  active">
+
+                            <div className="row p-5 d-flex align-items-center">
+                                <div className="col-lg-7">
+                                    <h1>We Provied Our Best Services</h1>
+                                    <p>For us, the repair work is not just about finding the fault and fixing it, it is about quality parts that are made to last long.</p>
+                                    <button className="services-btn">Our Services</button>
+                                </div>
+
+                                <div className="col-lg-5">
+                                    <img src={image} className="d-block w-100" alt="..." />
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div className="carousel-item">
+                            <div className="row p-5 d-flex align-items-center">
+                                <div className="col-lg-7">
+                                    <h1>Finding Solution For Your Problems</h1>
+                                    <p>Our repair technicians have a wealth of experience repairing mobile devices and diagnosing errors</p>
+
+                                    <button className="services-btn">Our Services</button>
+                                </div>
+
+                                <div className="col-lg-5">
+                                    <img src={image2} className="d-block w-100" alt="..." />
+                                </div>
+
+                            </div>
+                        </div>
+                        <div className="carousel-item">
+                            <div className="row p-5  d-flex align-items-center">
+                                <div className="col-lg-7">
+                                    <h1>Receive Instant Service</h1>
+                                    <p>We offer repair many different types of devices including computers, smartphones, tablets, gaming consoles etc.</p>
+
+                                    <button className="services-btn">Our Services</button>
+                                </div>
+
+                                <div className="col-lg-5">
+                                    <img src={image3} className="d-block w-100" alt="..." />
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Previous</span>
+                    </button>
+                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <div className="carousel-inner">
-                    <div className="carousel-item active">
-                        <div className='blur-img'><img src={image} className="d-block w-100 " alt="..." /></div>
-                        <div className="carousel-caption ">
-                            <h1 className='text-size'><span className='main-text'>Finding Solution</span> <br /> </h1>
-                            <p className='small-cap'>for your problems</p>
-
-                            <div>
-                                <button className='book-btn'>Book now</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="carousel-item">
-                        <div className='blur-img'><img src={image2} className="d-block w-100" alt="..." /></div>
-                        <div className="carousel-caption ">
-                            <h1 className='style-color text-size'><span className='main-text'>Broken display or display issue?</span> <br /></h1>
-                            <p className='small-cap'> Don't worry we've got you covered.</p>
-
-                            <div className='mt-3'>
-                                <button className='book-btn'>Book now</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="carousel-item">
-                        <div className='blur-img'><img src={image3} className="d-block w-100" alt="..." /></div>
-                        <div className="carousel-caption ">
-                            <h1 className='text-size'><span className='main-text'>We satify our customer how we work on your device.</span><br /></h1>
-                            <p className='small-cap'> Your device will remain spotless and will feel like new device.</p>
-
-                            <div>
-                                <button className='book-btn'>Book now</button>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Previous</span>
-                </button>
-                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Next</span>
-                </button>
-            </div>
+            </section>
         </div>
     );
 };

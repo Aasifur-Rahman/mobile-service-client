@@ -60,7 +60,7 @@ export default class AutoPlay extends Component {
         };
         return (
             <div className='container' >
-                <h2 className=' text-center mt-5 mb-4' >Featured</h2>
+                <h2 className=' text-center mt-5 mb-4' >Brands we repair</h2>
                 <Slider className='mt-4' {...settings}>
                     <div className='text-center container'>
                         <img className='custom-img container ' src="https://static.businessworld.in/article/article_extra_large_image/1568786528_SCiGl5_apple.jpg" alt="loading" />
