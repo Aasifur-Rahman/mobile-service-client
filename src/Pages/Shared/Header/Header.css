@@ -1,18 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
 
 
-.nav-new {
-    color: white;
-}
-
-.brand-style {
-    color: rgb(235, 130, 245);
-}
-
-.nav-hover:hover {
-    color: rgb(235, 130, 245);
-}
-
 .book-btn {
     color: rgb(255, 255, 255);
     background-color: rgb(233, 101, 245);
@@ -25,8 +13,11 @@
     transition: 0.1s;
 }
 
-
-
+.custom-text {
+    font-family: 'Prompt', sans-serif;
+    color: #000 !important;
+    text-decoration: none;
+}
 
 
 
@@ -38,15 +29,11 @@
     box-sizing: border-box;
 }
 
-Nav {
-    padding-right: 250px;
+*/ .different {
 
-}
 
-.different {
-    font-family: 'Prompt', sans-serif;
     display: inline-block;
-    color: #000;
+    color: rgb(96, 74, 146);
     text-decoration: none;
 
 }
@@ -56,8 +43,8 @@ Nav {
     display: block;
     width: 0;
     height: 2px;
-    background: black;
-    transition: width .3s;
+    background: rgb(96, 74, 146);
+    transition: ease-in .3s;
 }
 
 .different:hover::after {
@@ -66,9 +53,20 @@ Nav {
 
 
 @media only screen and (max-width: 653px) {
-    .search-inp {
-        margin-top: 30px;
-        width: 150px;
+
+    .different::after {
+        content: '';
+        display: block;
+        width: 0px;
+        height: 2px;
+        background: rgb(96, 74, 146);
+        transition: ease-in .3s;
+
     }
+
+    .different:hover::after {
+        width: 15%;
+    }
+
 
 }
